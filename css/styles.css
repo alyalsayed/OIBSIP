@@ -51,6 +51,8 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
   font-family: "Playfair Display", sans-serif;
@@ -72,12 +74,13 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 800;
   padding: 0px;
 }
 .header .logo {
-  width: 200px;
+  width: 150px;
+  max-width: 100%;
 }
 
 .header .links .header-links {
@@ -222,7 +225,7 @@ html {
     margin-top: 0px;
     background-color: white;
     position: absolute;
-    right: 50px;
+    right: 60px;
     transform: translateX(50%);
     min-width: 200px;
     top: calc(100%);
@@ -242,7 +245,7 @@ html {
 
   .services-parent:hover .dropdown-services {
     right: 175%;
-    top: -10px;
+    top: 0;
     background-color: var(--color-white);
   }
 }
@@ -251,6 +254,15 @@ html {
     display: none;
   }
 }
+@media (max-width: 450px) {
+  .services-parent:hover .dropdown-services {
+    min-width: 200px;
+    font-size: 14px;
+    right: 50%;
+    top: 100%;
+  }
+}
+
 /*--Start landing--*/
 
 .landing {
@@ -271,49 +283,48 @@ html {
   margin-bottom: 15px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 25px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  align-content: center;
+  align-content: space-between;
+}
+.landing .landing-container :not(.getexpressvpn-btn) {
+  padding: 0;
+  margin: 0;
 }
 .landing .landing-container h1 {
-  padding: 0px;
   font-size: 90px;
   width: 100%;
-  max-width: 100%;
   line-height: 1.1;
-  overflow-wrap: break-word;
   font-weight: 800;
   letter-spacing: 4.5px;
   color: var(--color-midnight);
   text-align: center;
-  flex-basis: auto;
 }
 
 .landing .landing-container .sub-title-big {
   font-size: 27px;
   width: 100%;
   line-height: 1.1;
-  overflow-wrap: break-word;
+  /* overflow-wrap: break-word; */
   font-weight: 800;
   letter-spacing: 2px;
   color: var(--color-midnight);
-  flex-basis: auto;
 }
 
 .getexpressvpn-btn {
   color: var(--color-white);
   background-color: var(--main-color);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: 15px 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
   border-radius: 45px;
   width: 300px;
   border-color: transparent;
   border-width: 3px;
   font-weight: 800;
-  font-size: 25px;
+  font-size: 20px;
   transition: 0.3s;
   text-align: center;
 }
@@ -322,57 +333,44 @@ html {
   background-color: var(--color-neon);
 }
 .sub-title-small {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--color-grey-10);
 }
-@media (max-width: 638px) {
+
+@media (max-width: 767px) {
   .landing .landing-container h1 {
     font-size: 70px;
   }
   .landing .landing-container .sub-title-big {
-    font-size: 18px;
+    font-size: 22px;
   }
+  .landing .landing-container .getexpressvpn-btn {
+    width: 100%;
+  }
+  .header .container {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1024px) {
   .landing .landing-container {
-    align-content: center;
+    top: 35%;
   }
 }
-@media (max-width: 480px) {
-  .lang-item,
-  .icon {
-    transform: scale(1.2);
-    margin-right: 20px;
-    z-index: 5;
-  }
-  .logo {
-    transform: scale(0.6);
-    transform: translateX(-10%);
-  }
 
+@media (max-width: 336px) {
   .landing .landing-container h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
-  .landing .landing-container .sub-title-big {
-    font-size: 16px;
-  }
-}
-@media (max-width: 425px) {
   .lang-item {
     display: none;
   }
-  .logo {
-    transform: translateX(-10%);
-  }
 }
-@media (max-width: 290px) {
-  .logo {
-    display: none;
-  }
-
+@media (max-width: 226px) {
   .landing .landing-container h1 {
-    font-size: 25px;
+    font-size: 35px;
   }
   .landing .landing-container .sub-title-big {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 /*--End landing--*/
