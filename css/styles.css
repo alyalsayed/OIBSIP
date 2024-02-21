@@ -387,7 +387,15 @@ button {
 
 /*--Start Features--*/
 .features {
-  padding: var(--section-padding) 0;
+  padding-top: calc(var(--section-padding) + 40px);
+  padding-bottom: var(--section-padding);
+}
+.features .container h2 {
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 1.1;
+  width: 100%;
+  text-align: center;
 }
 .features .features-content {
   display: flex;
@@ -454,3 +462,21 @@ button {
 }
 
 /*--End Features--*/
+/* Start Services */
+.services {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-color: var(--color-warning-50);
+}
+.services .container .services-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
+  margin-top: 100px;
+}
+.services .container .services-content > .srv {
+  width: 285px;
+  height: 145px;
+}
+
+/* End Services */
