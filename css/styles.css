@@ -464,19 +464,51 @@ button {
 /*--End Features--*/
 /* Start Services */
 .services {
-  padding-top: var(--section-padding);
+  padding-top: calc(var(--section-padding) + 40px);
   padding-bottom: var(--section-padding);
-  background-color: var(--color-warning-50);
+  background-color: var(--color-sand-30);
 }
 .services .container .services-content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 30px;
-  margin-top: 100px;
+  text-align: center;
 }
-.services .container .services-content > .srv {
+.services-content .srv h2 {
+  width: 100%;
+}
+.services .container .services-content .srv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.services-content h3,
+.services-content p,
+.services-content img {
   width: 285px;
-  height: 145px;
+}
+.services-content h3 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1.8;
+}
+.services-content .srv-header {
+  grid-column: 1 / -1;
+  margin-bottom: 20px;
+}
+.services-content .srv-header h2 {
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 1.1;
+  width: 100%;
+  text-align: center;
+}
+.services-content p {
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 /* End Services */
