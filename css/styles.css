@@ -68,6 +68,12 @@ html {
   padding-left: 15px;
   padding-right: 15px;
 }
+a {
+  color: #009688;
+}
+button {
+  cursor: pointer;
+}
 .header {
   background-color: var(--color-sand-20);
   padding: 20px;
@@ -446,4 +452,5 @@ html {
   text-align: center;
   padding: 5px;
 }
+
 /*--End Features--*/
