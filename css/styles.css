@@ -403,18 +403,47 @@ html {
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
-  max-width: 300px;
+  max-width: 430px;
 }
 .features .container .row .info-flex h3 {
   font-size: 40px;
+  letter-spacing: 2;
+}
+.features .container .row .info-flex p {
+  font-size: 20px;
+  letter-spacing: 2;
+  line-height: 1.8;
 }
 .features .container .row .left-image img {
   width: 370px;
   height: 370px;
 }
+.features .container .row .image-2 {
+  order: 1;
+}
+.features .container .row .info-flex .getexpressvpn-btn {
+  font-size: 15px;
+  width: 200px;
+}
 @media (max-width: 500px) {
   .features .container .row .info-flex .getexpressvpn-btn {
     width: 100%;
   }
+  .features .container .row .info-flex {
+    text-align: center;
+    align-items: center;
+  }
+}
+.info-container-3 .icons-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.info-container-3 .icons-container > div {
+  min-width: 30px;
+  max-width: 30px;
+  background-color: #eee;
+  text-align: center;
+  padding: 5px;
 }
 /*--End Features--*/
