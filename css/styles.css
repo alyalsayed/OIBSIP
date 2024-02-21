@@ -1,5 +1,7 @@
 /* Start Variables */
 :root {
+  --section-padding: 60px;
+
   --main-color: #0f866c;
 
   --color-black: #000;
@@ -320,13 +322,15 @@ html {
   padding-bottom: 15px;
   margin: 0;
   border-radius: 45px;
-  width: 300px;
   border-color: transparent;
   border-width: 3px;
   font-weight: 800;
-  font-size: 20px;
   transition: 0.3s;
   text-align: center;
+}
+.landing .landing-container .getexpressvpn-btn {
+  font-size: 22px;
+  width: 300px;
 }
 .getexpressvpn-btn:hover {
   color: var(--color-midnight);
@@ -374,3 +378,43 @@ html {
   }
 }
 /*--End landing--*/
+
+/*--Start Features--*/
+.features {
+  padding: var(--section-padding) 0;
+}
+.features .features-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.features .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.features .container .row .info-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 300px;
+}
+.features .container .row .info-flex h3 {
+  font-size: 40px;
+}
+.features .container .row .left-image img {
+  width: 370px;
+  height: 370px;
+}
+@media (max-width: 500px) {
+  .features .container .row .info-flex .getexpressvpn-btn {
+    width: 100%;
+  }
+}
+/*--End Features--*/
