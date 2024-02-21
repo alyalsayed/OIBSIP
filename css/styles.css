@@ -69,11 +69,12 @@ html {
   padding-right: 15px;
 }
 a {
-  color: #009688;
+  color: var(--color-success-30);
 }
 button {
   cursor: pointer;
 }
+/* end Global Rules */
 .header {
   background-color: var(--color-sand-20);
   padding: 20px;
@@ -278,7 +279,6 @@ button {
   background-size: cover;
   height: calc(100vh - 168px);
   position: relative;
-  /* position: relative; */
 }
 .landing .landing-container {
   position: absolute;
@@ -291,7 +291,7 @@ button {
   margin-bottom: 15px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 30px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -384,11 +384,55 @@ button {
   }
 }
 /*--End landing--*/
+/*--Start calender section--*/
+.calender {
+  padding-top: calc(var(--section-padding) + 40px);
+  padding-bottom: var(--section-padding);
+}
+.calender .container .calender-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.calender-content img,
+.calender-content h3,
+.calender-content p {
+  width: 370px;
+}
 
+.calender-content .info-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.calender-content h3 {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 3.4;
+  line-height: 1.1;
+  max-width: 100%;
+}
+.calender-content p {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+@media (max-width: 476px) {
+  .calender .container .calender-content {
+    /* justify-content: center; */
+    text-align: center;
+  }
+}
+
+/*--End calender section--*/
 /*--Start Features--*/
 .features {
   padding-top: calc(var(--section-padding) + 40px);
   padding-bottom: var(--section-padding);
+  background-color: var(--color-sand-30);
 }
 .features .container h2 {
   font-size: 46px;
@@ -466,7 +510,6 @@ button {
 .services {
   padding-top: calc(var(--section-padding) + 40px);
   padding-bottom: var(--section-padding);
-  background-color: var(--color-sand-30);
 }
 .services .container .services-content {
   display: grid;
