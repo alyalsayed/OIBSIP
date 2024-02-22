@@ -555,3 +555,13 @@ button {
 }
 
 /* End Services */
+/*Start footer*/
+.footer {
+  background-color: var(--color-midnight);
+}
+.footer .container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+/*End footer*/
