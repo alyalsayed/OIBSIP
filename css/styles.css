@@ -557,6 +557,64 @@ button {
 }
 
 /* End Services */
+/* Start map Section */
+.map {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-color: var(--color-brand-50);
+  background-size: cover;
+}
+.map .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.map h1 {
+  grid-column: span 2;
+  font-size: 40px;
+}
+
+.map img {
+  grid-column: 1 / span 1;
+  width: 550px;
+  max-width: 550px;
+}
+
+.map .aside-info {
+  grid-column: 2 / span 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .map .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  .map img {
+    grid-row: 2; /* Move the image to the second row */
+    width: 100%; /* Make the image take the full width of the container */
+    max-width: none; /* Reset max-width */
+  }
+
+  .map .aside-info {
+    grid-column: 1; /* Make the aside-info span the full width */
+  }
+}
+.map .container .aside-info h2 {
+  font-size: 60px;
+  line-height: 1.2;
+}
+.map .container .aside-info p {
+  font-size: 14px;
+  line-height: 1.2;
+}
+/* End map Section */
 /*Start footer*/
 .footer {
   background-color: var(--color-midnight);
