@@ -597,13 +597,13 @@ button {
     grid-template-rows: auto auto;
   }
   .map img {
-    grid-row: 2; /* Move the image to the second row */
-    width: 100%; /* Make the image take the full width of the container */
-    max-width: none; /* Reset max-width */
+    grid-row: 2;
+    width: 100%;
+    max-width: none;
   }
 
   .map .aside-info {
-    grid-column: 1; /* Make the aside-info span the full width */
+    grid-column: 1;
   }
 }
 .map .container .aside-info h2 {
