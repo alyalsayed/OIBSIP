@@ -9,28 +9,37 @@ function App() {
   const [kelvin, setKelvin] = useState("");
   const [fahrenheit, setFahrenheit] = useState("");
 
-  const handleCelsiusChange = (e) => {
+  const handleInputChange = (e, setterFunction) => {
     const value = e.target.value;
-    setCelsius(value);
-    setKelvin(value !== "" ? parseFloat(value) + 273.15 : "");
-    setFahrenheit(value !== "" ? (parseFloat(value) * 9) / 5 + 32 : "");
+    // Regex to match only numbers or an empty string
+    if (/^\d*\.?\d*$/.test(value) || value === "") {
+      setterFunction(value);
+    } else {
+      alert("Please enter a valid number.");
+    }
+  };
+
+  const handleCelsiusChange = (e) => {
+    handleInputChange(e, setCelsius);
+    const value = e.target.value !== "" ? parseFloat(e.target.value) : NaN;
+    setKelvin(!isNaN(value) ? value + 273.15 : "");
+    setFahrenheit(!isNaN(value) ? (value * 9) / 5 + 32 : "");
   };
 
   const handleKelvinChange = (e) => {
-    const value = e.target.value;
-    setKelvin(value);
-    setCelsius(value !== "" ? parseFloat(value) - 273.15 : "");
-    setFahrenheit(
-      value !== "" ? ((parseFloat(value) - 273.15) * 9) / 5 + 32 : ""
-    );
+    handleInputChange(e, setKelvin);
+    const value = e.target.value !== "" ? parseFloat(e.target.value) : NaN;
+    setCelsius(!isNaN(value) ? value - 273.15 : "");
+    setFahrenheit(!isNaN(value) ? ((value - 273.15) * 9) / 5 + 32 : "");
   };
 
   const handleFahrenheitChange = (e) => {
-    const value = e.target.value;
-    setFahrenheit(value);
-    setCelsius(value !== "" ? ((parseFloat(value) - 32) * 5) / 9 : "");
-    setKelvin(value !== "" ? ((parseFloat(value) - 32) * 5) / 9 + 273.15 : "");
+    handleInputChange(e, setFahrenheit);
+    const value = e.target.value !== "" ? parseFloat(e.target.value) : NaN;
+    setCelsius(!isNaN(value) ? ((value - 32) * 5) / 9 : "");
+    setKelvin(!isNaN(value) ? ((value - 32) * 5) / 9 + 273.15 : "");
   };
+
   const handleClear = () => {
     setCelsius("");
     setKelvin("");
