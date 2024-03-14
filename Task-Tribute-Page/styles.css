@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#main {
+  max-width: calc(100vw - 20px);
+  margin: 30px auto;
+  text-align: left;
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+#title {
+  font-size: 2.5em;
+  text-align: center;
+}
+.subtitle {
+  text-align: center;
+}
+#img-div {
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  padding: 10px;
+}
+
+#img-caption {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+#tribute-info {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#info-title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+  gap: 20px;
+}
+ul > li {
+  line-height: 26px;
+}
+blockquote {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  max-width: 50%;
+  line-height: 24px;
+  font-style: italic;
+}
+
+#tribute-link:hover {
+  background-color: #0056b3;
+}
