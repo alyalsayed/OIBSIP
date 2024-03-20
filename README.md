@@ -17,6 +17,4 @@
 # Task-Tribute-Page (HTML-CSS)
 ## Demo: https://alyalsayed-tribute-page.netlify.app/
 
-# Task-To-Do-App (HTML-CSS-Javascript)
-## Demo: https://alyalsayed-todoapp.netlify.app/
 
