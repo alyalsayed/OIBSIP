@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Personal Portfolio",
+        "image": "img/portfolio-1.jpg",
+        "live_link": "",
+        "github_link": "https://github.com/alyalsayed/OIBSIP/tree/main/Task2-portfolio",
+        "description": "A personal portfolio website showcasing my projects and skills.",
+        "skills": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+    },
+    {
+        "title": "E-commerce Website",
+        "image": "img/portfolio-2.webp",
+        "live_link": "",
+        "github_link": "https://github.com/alyalsayed/MERN-Ecommerce",
+        "description": "An e-commerce platform with user authentication and a shopping cart.",
+        "skills": ["React", "Node.js", "MongoDB", "Express"]
+    },
+    {
+        "title": "ExpressVpn Landing Page",
+        "image": "img/portfolio-3.jpg",
+        "live_link": "https://alyalsayed-expressvpn-landing-page.netlify.app/",
+        "github_link": "https://github.com/alyalsayed/OIBSIP/tree/main/Task1-ExpressVPN-Landing-page",
+        "description": "A landing page for ExpressVpn.",
+        "skills": ["HTML", "CSS", "Responsive Design"]
+    }
+]
