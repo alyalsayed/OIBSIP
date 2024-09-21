@@ -1,7 +1,7 @@
 [
     {
         "title": "Personal Portfolio",
-        "image": "img/portfolio-1.jpg",
+        "image": "img/portfolio.webp",
         "live_link": "",
         "github_link": "https://github.com/alyalsayed/OIBSIP/tree/main/Task2-portfolio",
         "description": "A personal portfolio website showcasing my projects and skills.",
@@ -17,10 +17,19 @@
     },
     {
         "title": "ExpressVpn Landing Page",
-        "image": "img/portfolio-3.jpg",
+        "image": "img/express-vpn.avif",
         "live_link": "https://alyalsayed-expressvpn-landing-page.netlify.app/",
         "github_link": "https://github.com/alyalsayed/OIBSIP/tree/main/Task1-ExpressVPN-Landing-page",
         "description": "A landing page for ExpressVpn.",
         "skills": ["HTML", "CSS", "Responsive Design"]
+    }
+    ,
+    {
+        "title": "Smart Parking System (Graduation Project)",
+        "image": "img/ocr.webp",
+        "live_link": "https://universe.roboflow.com/alyalsayed-vyx6g/egyptian-car-plates/model/13",
+        "github_link": "https://github.com/alyalsayed/Graduation_Project",
+        "description": "Developed a car plate recognition system using YOLO for detection, with a Python backend utilizing Flask API and a React frontend with Material UI. Integrated Streamlit, and used Python for image scraping and annotation with Roboflow",
+        "skills": ["python", "flask", "Yolo", "streamlit", "React"]
     }
 ]

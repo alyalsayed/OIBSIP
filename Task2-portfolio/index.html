@@ -24,7 +24,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
   </head>
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="51">
+  <body data-spy="scroll" data-target=".navbar" data-offset="51" class="overflowx-hidden">
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm py-3 py-lg-0 px-lg-5"
     >
@@ -49,8 +49,8 @@
             <a class="nav-item nav-link" href="#qualification">Quality</a>
             <a class="nav-item nav-link" href="#skill">Skill</a>
             <a class="nav-item nav-link" href="#service">Service</a>
-            <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-            <a class="nav-item nav-link" href="#contact">Contact</a>
+            <a class="nav-item nav-link" href="#projects">Portfolio</a>
+            <a class="nav-item nav-link" href="#footer">Contact</a>
           </div>
           <a href="" class="btn btn-outline-info d-none d-lg-block">Hire Me</a>
         </div>
@@ -95,6 +95,21 @@
                 class="btn btn-outline-light mr-5"
                 >Download CV</a
               >
+              <a
+                class="btn btn-light btn-social mr-2"
+                href="https://github.com/alyalsayed"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                class="btn btn-light btn-social mr-2"
+                href="https://www.linkedin.com/in/alyalsayedaly541/"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                class="btn btn-light btn-social"
+                href="mailto:alyalsayed56@yahoo.com"
+                ><i class="fas fa-envelope"></i
+              ></a>
             </div>
           </div>
         </div>
@@ -167,9 +182,14 @@
                 </h6>
               </div>
             </div>
-            <a                 href="https://drive.google.com/drive/folders/1Jj9Hq7Dmy4bOiyjm3XVaWfCQy7yckPLI"
-            class="btn btn-outline-info mr-4">Hire Me</a>
-            <a href="https://github.com/alyalsayed" class="btn btn-outline-info">Learn More</a>
+            <a
+              href="https://drive.google.com/drive/folders/1Jj9Hq7Dmy4bOiyjm3XVaWfCQy7yckPLI"
+              class="btn btn-outline-info mr-4"
+              >Hire Me</a
+            >
+            <a href="https://github.com/alyalsayed" class="btn btn-outline-info"
+              >Learn More</a
+            >
           </div>
         </div>
       </div>
@@ -179,74 +199,125 @@
     <!-- Qualification Start -->
     <div class="container-fluid py-5 bg-light" id="qualification">
       <div class="container">
-          <div class="position-relative d-flex align-items-center justify-content-center">
-              <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6">
-                  Quality
-              </h1>
-              <h1 class="position-absolute text-uppercase text-info">
-                  Education & Experience
-              </h1>
-          </div>
-          <div class="row align-items-start">
-              <div class="col-lg-6">
-                  <h3 class="mb-4">My Education</h3>
-                  <div class="border-left border-info pt-2 pl-4 ml-2">
-                      <div class="position-relative mb-4">
-                          <i class="far fa-dot-circle text-info position-absolute" style="top: 2px; left: -32px"></i>
-                          <h5 class="font-weight-bold mb-1">Bachelor in Electrical Engineering</h5>
-                          <p class="mb-2">
-                              <strong>Zagazig University</strong> |
-                              <small>2019 - 2024</small>
-                          </p>
-                          <p>Overall grade: Excellent</p>
-                          <ul>
-                              <li><strong>Academic Member, Zigzag Club:</strong> Contributed to academic initiatives and supported fellow students in their learning journeys.</li>
-                              <li><strong>Technical Member, IEEE:</strong> Engaged in technical projects and workshops, enhancing skills and knowledge in engineering and technology.</li>
-                              <li><strong>Graduation Project:</strong> Developed a YOLO-based model for car plate detection and recognition, utilizing Python, Flask, and React.</li>
-                          </ul>
-                      </div>
-                      <div class="position-relative mb-4">
-                          <i class="far fa-dot-circle text-info position-absolute" style="top: 2px; left: -32px"></i>
-                          <h5 class="font-weight-bold mb-1">Software Engineering</h5>
-                          <p class="mb-2">
-                              <strong>ALX Africa</strong> |
-                              <small>2023 - 2024</small>
-                          </p>
-                          <p>Completed ALX programs in Low-Level Programming, High-Level Programming, Data Structures with C, and System Engineering DevOps. Developed proficiency in HTML, CSS, JavaScript, Bash scripting, and Linux, with a strong focus on automation and continuous integration practices.</p>
-                      </div>
-                  </div>
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            Quality
+          </h1>
+          <h1 class="position-absolute text-uppercase text-info">
+            Education & Experience
+          </h1>
+        </div>
+        <div class="row align-items-start">
+          <div class="col-lg-6">
+            <h3 class="mb-4">My Education</h3>
+            <div class="border-left border-info pt-2 pl-4 ml-2">
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-info position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">
+                  Bachelor in Electrical Engineering (Computer and Systems
+                  Engineering)
+                </h5>
+                <p class="mb-2">
+                  <strong>Zagazig University</strong> |
+                  <small>2019 - 2024</small>
+                </p>
+                <p>Overall grade: Excellent</p>
+                <ul>
+                  <li>
+                    <strong>Academic Member, Zigzag Club:</strong> Contributed
+                    to academic initiatives and supported fellow students in
+                    their learning journeys.
+                  </li>
+                  <li>
+                    <strong>Technical Member, IEEE:</strong> Engaged in
+                    technical projects and workshops, enhancing skills and
+                    knowledge in engineering and technology.
+                  </li>
+                  <li>
+                    <strong>Graduation Project:</strong> Developed a YOLO-based
+                    model for car plate detection and recognition, utilizing
+                    Python, Flask, and React.
+                  </li>
+                </ul>
               </div>
-              <div class="col-lg-6">
-                  <h3 class="mb-4">My Experience</h3>
-                  <div class="border-left border-info pt-2 pl-4 ml-2">
-                      <div class="position-relative mb-4">
-                          <i class="far fa-dot-circle text-info position-absolute" style="top: 2px; left: -32px"></i>
-                          <h5 class="font-weight-bold mb-1">Web Design Intern</h5>
-                          <p class="mb-2">
-                              <strong>Oasis Infobyte</strong> |
-                              <small>Remote | 2/2024 - 3/2024</small>
-                          </p>
-                          <p>Developed web applications including a portfolio website, an ExpressVPN landing page, a tribute page, and a calculator, achieving an average project completion time of 2 weeks.</p>
-                      </div>
-                      <div class="position-relative mb-4">
-                          <i class="far fa-dot-circle text-info position-absolute" style="top: 2px; left: -32px"></i>
-                          <h5 class="font-weight-bold mb-1">Frontend Intern</h5>
-                          <p class="mb-2">
-                              <strong>Vijua</strong> |
-                              <small>Cairo - 6 October | 6/2024 - 9/2024</small>
-                          </p>
-                          <ul>
-                              <li>Developed 5+ responsive interactive ebooks using HTML, CSS, and JavaScript, enhancing user engagement.</li>
-                              <li>Collaborated with graphic design teams to create functional ebook templates, streamlining the design process.</li>
-                              <li>Incorporated feedback from the frontend leader to refine features, ensuring timely submission of tasks.</li>
-                          </ul>
-                      </div>
-                  </div>
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-info position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">Software Engineering</h5>
+                <p class="mb-2">
+                  <strong>ALX Africa</strong> |
+                  <small>2023 - 2024</small>
+                </p>
+                <p>
+                  Completed ALX programs in Low-Level Programming, High-Level
+                  Programming, Data Structures with C, and System Engineering
+                  DevOps. Developed proficiency in HTML, CSS, JavaScript, Bash
+                  scripting, and Linux, with a strong focus on automation and
+                  continuous integration practices.
+                </p>
               </div>
+            </div>
           </div>
+          <div class="col-lg-6">
+            <h3 class="mb-4">My Experience</h3>
+            <div class="border-left border-info pt-2 pl-4 ml-2">
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-info position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">Web Design Intern</h5>
+                <p class="mb-2">
+                  <strong>Oasis Infobyte</strong> |
+                  <small>Remote | 2/2024 - 3/2024</small>
+                </p>
+                <p>
+                  Developed web applications including a portfolio website, an
+                  ExpressVPN landing page, a tribute page, and a calculator,
+                  achieving an average project completion time of 2 weeks.
+                </p>
+              </div>
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-info position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">Frontend Intern</h5>
+                <p class="mb-2">
+                  <strong>Vijua</strong> |
+                  <small>Cairo - 6 October | 6/2024 - 9/2024</small>
+                </p>
+                <ul>
+                  <li>
+                    Developed 5+ responsive interactive ebooks using HTML, CSS,
+                    and JavaScript, enhancing user engagement.
+                  </li>
+                  <li>
+                    Collaborated with graphic design teams to create functional
+                    ebook templates, streamlining the design process.
+                  </li>
+                  <li>
+                    Incorporated feedback from the frontend leader to refine
+                    features, ensuring timely submission of tasks.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-  </div>
-  
+    </div>
+
     <!-- Qualification End -->
 
     <!-- Skill Start -->
@@ -443,60 +514,69 @@
             class="display-1 text-uppercase text-white"
             style="-webkit-text-stroke: 1px #dee2e6"
           >
-          Service
+            Service
           </h1>
-          <h1 class="position-absolute text-uppercase text-info"> My Services</h1>
+          <h1 class="position-absolute text-uppercase text-info">
+            My Services
+          </h1>
         </div>
         <p class="lead text-muted mb-5 text-center">
           Offering a range of services to bring your ideas to life.
-      </p>
-         
-          <div class="row pb-3">
-              <div class="col-lg-4 col-md-6 mb-5 d-flex">
-                  <div class="card flex-fill shadow-sm">
-                      <div class="card-body text-center">
-                          <i class="fa-solid fa-3x fa-mug-saucer text-info mb-3"></i>
-                          <h4 class="font-weight-bold mb-3">Web Design</h4>
-                          <p>
-                              Creating visually appealing, user-friendly websites with responsive designs. Leveraging tools like React, Bootstrap, and Material UI to deliver engaging interfaces optimized for performance and accessibility.
-                          </p>
-                      </div>
-                  </div>
+        </p>
+
+        <div class="row pb-3">
+          <div class="col-lg-4 col-md-6 mb-5 d-flex">
+            <div class="card flex-fill shadow-sm">
+              <div class="card-body text-center">
+                <i class="fa-solid fa-3x fa-mug-saucer text-info mb-3"></i>
+                <h4 class="font-weight-bold mb-3">Web Design</h4>
+                <p>
+                  Creating visually appealing, user-friendly websites with
+                  responsive designs. Leveraging tools like React, Bootstrap,
+                  and Material UI to deliver engaging interfaces optimized for
+                  performance and accessibility.
+                </p>
               </div>
-              <div class="col-lg-4 col-md-6 mb-5 d-flex">
-                  <div class="card flex-fill shadow-sm">
-                      <div class="card-body text-center">
-                          <i class="fa-solid fa-3x fa-laptop-code text-info mb-3"></i>
-                          <h4 class="font-weight-bold mb-3">Backend Development</h4>
-                          <p>
-                              Developing robust server-side applications with PHP and Laravel. Expertise in creating RESTful APIs and implementing backend validation to ensure data security and performance.
-                          </p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-6 mb-5 d-flex">
-                  <div class="card flex-fill shadow-sm">
-                      <div class="card-body text-center">
-                          <i class="fa-solid fa-3x fa-bug text-info mb-3"></i>
-                          <h4 class="font-weight-bold mb-3">Quality Assurance</h4>
-                          <p>
-                              Ensuring functionality and performance of web applications through rigorous debugging and testing with Postman, delivering reliable and efficient solutions.
-                          </p>
-                      </div>
-                  </div>
-              </div>
+            </div>
           </div>
+          <div class="col-lg-4 col-md-6 mb-5 d-flex">
+            <div class="card flex-fill shadow-sm">
+              <div class="card-body text-center">
+                <i class="fa-solid fa-3x fa-laptop-code text-info mb-3"></i>
+                <h4 class="font-weight-bold mb-3">Backend Development</h4>
+                <p>
+                  Developing robust server-side applications with PHP and
+                  Laravel. Expertise in creating RESTful APIs and implementing
+                  backend validation to ensure data security and performance.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 d-flex">
+            <div class="card flex-fill shadow-sm">
+              <div class="card-body text-center">
+                <i class="fa-solid fa-3x fa-bug text-info mb-3"></i>
+                <h4 class="font-weight-bold mb-3">Quality Assurance</h4>
+                <p>
+                  Ensuring functionality and performance of web applications
+                  through rigorous debugging and testing with Postman,
+                  delivering reliable and efficient solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-  </div>
-  
-  
+    </div>
+
     <!-- Services End -->
 
     <!-- Portfolio Start -->
-    <!-- <div class="container-fluid pt-5 pb-3" id="portfolio">
+
+    <div class="container-fluid py-5" id="projects">
       <div class="container">
         <div
-          class="position-relative d-flex align-items-center justify-content-center"
+          class="position-relative d-flex align-items-center justify-content-center mb-5"
         >
           <h1
             class="display-1 text-uppercase text-white"
@@ -509,217 +589,41 @@
           </h1>
         </div>
         <div class="row">
-          <div class="col-12 text-center mb-2">
-            <ul class="list-inline mb-4" id="portfolio-flters">
-              <li class="btn btn-sm btn-outline-info m-1 active">All</li>
-              <li class="btn btn-sm btn-outline-info m-1">Design</li>
-              <li class="btn btn-sm btn-outline-info m-1">Development</li>
-              <li class="btn btn-sm btn-outline-info m-1">Marketing</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row portfolio-container">
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-            <div class="position-relative overflow-hidden mb-2">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/portfolio-1.jpg"
-                alt=""
-              />
-              <div
-                class="portfolio-btn bg-info d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-1.jpg"> </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-            <div class="position-relative overflow-hidden mb-2">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/portfolio-2.jpg"
-                alt=""
-              />
-              <div
-                class="portfolio-btn bg-info d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-2.jpg"> </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-            <div class="position-relative overflow-hidden mb-2">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/portfolio-3.jpg"
-                alt=""
-              />
-              <div
-                class="portfolio-btn bg-info d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-3.jpg"> </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-            <div class="position-relative overflow-hidden mb-2">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/portfolio-4.jpg"
-                alt=""
-              />
-              <div
-                class="portfolio-btn bg-info d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-4.jpg"> </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-            <div class="position-relative overflow-hidden mb-2">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/portfolio-5.jpg"
-                alt=""
-              />
-              <div
-                class="portfolio-btn bg-info d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-5.jpg" data-lightbox="portfolio"> </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-            <div class="position-relative overflow-hidden mb-2">
-              <img
-                class="img-fluid rounded w-100"
-                src="img/portfolio-6.jpg"
-                alt=""
-              />
-              <div
-                class="portfolio-btn bg-info d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-6.jpg" data-lightbox="portfolio"> </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- Portfolio End -->
-    <div class="container-fluid py-5" id="projects">
-      <div class="container">
-        <div
-        class="position-relative d-flex align-items-center justify-content-center"
-      >
-        <h1
-          class="display-1 text-uppercase text-white"
-          style="-webkit-text-stroke: 1px #dee2e6"
-        >
-          Gallery
-        </h1>
-        <h1 class="position-absolute text-uppercase text-info">
-          My Portfolio
-        </h1>
-      </div>
-          <div class="row">
-              <!-- Project Card Template -->
-              <div class="col-lg-4 col-md-6 mb-4" id="project-template" style="display: none;">
-                  <div class="card h-100">
-                      <img src="" class="card-img-top" alt="Project Image">
-                      <div class="card-body">
-                          <h5 class="card-title"></h5>
-                          <p class="card-text"></p>
-                          <div class="d-flex justify-content-between">
-                              <a href="" class="btn btn-outline-info live-link" style="display: none;">View Live</a>
-                              <a href="" class="btn btn-outline-secondary">GitHub</a>
-                          </div>
-                      </div>
-                      <div class="card-footer">
-                          <small class="text-muted"></small>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  
-    <!-- Contact Start -->
-    <div class="container-fluid py-5" id="contact">
-      <div class="container">
-        <div
-          class="position-relative d-flex align-items-center justify-content-center"
-        >
-          <h1
-            class="display-1 text-uppercase text-white"
-            style="-webkit-text-stroke: 1px #dee2e6"
+          <!-- Project Card Template -->
+          <div
+            class="col-lg-4 col-md-6 mb-4"
+            id="project-template"
+            style="display: none"
           >
-            Contact
-          </h1>
-          <h1 class="position-absolute text-uppercase text-info">Contact Me</h1>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-sm-8">
-            <div class="contact-form text-center">
-              <div id="success"></div>
-              <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                <div class="form-row">
-                  <div class="control-group col-sm-6">
-                    <input
-                      type="text"
-                      class="form-control p-3"
-                      id="name"
-                      placeholder="Your Name"
-                      required="required"
-                    />
-                  </div>
-                  <div class="control-group col-sm-6 mb-3">
-                    <input
-                      type="email"
-                      class="form-control p-3"
-                      id="email"
-                      placeholder="Your Email"
-                      required="required"
-                    />
-                  </div>
-                </div>
-                <div class="control-group mb-3">
-                  <input
-                    type="text"
-                    class="form-control p-3"
-                    id="subject"
-                    placeholder="Subject"
-                    required="required"
-                  />
-                </div>
-                <div class="control-group mb-3">
-                  <textarea
-                    class="form-control py-3 px-3"
-                    rows="5"
-                    id="message"
-                    placeholder="Message"
-                    required="required"
-                  ></textarea>
-                </div>
-                <div>
-                  <button
-                    class="btn btn-outline-info mt-3"
-                    type="submit"
-                    id="sendMessageButton"
-                  >
-                    Send Message
-                  </button>
-                </div>
-              </form>
+            <div class="card h-100">
+              <img src="" class="card-img-top" alt="Project Image" />
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"></p>
+              </div>
+              <div class="d-flex justify-content-center mb-3">
+                <a
+                  href=""
+                  class="btn btn-outline-info live-link mr-3"
+                  style="display: none"
+                  >View Live</a
+                >
+                <a href="" class="btn btn-outline-secondary">GitHub</a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"></small>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Contact End -->
-
+    <!-- Portfolio End -->
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+    <div
+      class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5 overflow-hidden"
+      id="footer"
+    >
       <div class="container text-center py-5">
         <div class="d-flex justify-content-center mb-4">
           <a
@@ -734,13 +638,24 @@
           ></a>
           <a
             class="btn btn-light btn-social mr-2"
+            href="https://github.com/alyalsayed"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="btn btn-light btn-social mr-2"
             href="https://www.linkedin.com/in/alyalsayedaly541/"
             ><i class="fab fa-linkedin-in"></i
           ></a>
           <a
-            class="btn btn-light btn-social"
+            class="btn btn-light btn-social mr-2"
             href="https://www.instagram.com/aly_khalil541/"
             ><i class="fab fa-instagram"></i
+          ></a>
+          <!-- add mail icon here -->
+          <a
+            class="btn btn-light btn-social"
+            href="mailto:alyalsayed56@yahoo.com"
+            ><i class="fas fa-envelope"></i
           ></a>
         </div>
         <div class="d-flex justify-content-center mb-3">
@@ -754,7 +669,7 @@
         </div>
         <p class="m-0">
           &copy;
-          <a class="text-white font-weight-bold" href="#">Domain Name</a>. All
+          <a class="text-white font-weight-bold" href="#">Aly Portfolio</a>. All
           Rights Reserved. Designed by
           <a class="text-white font-weight-bold" href="#">Aly Alsayed</a>
         </p>
