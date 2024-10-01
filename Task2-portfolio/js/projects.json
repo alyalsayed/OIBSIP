@@ -13,7 +13,7 @@
         "live_link": "",
         "github_link": "https://github.com/alyalsayed/MERN-Ecommerce",
         "description": "An e-commerce platform with user authentication and a shopping cart.",
-        "skills": ["React", "Node.js", "MongoDB", "Express"]
+        "skills": ["React", "Node.js", "MongoDB", "Express","REST API"]
     },
     {
         "title": "ExpressVpn Landing Page",
@@ -31,5 +31,95 @@
         "github_link": "https://github.com/alyalsayed/Graduation_Project",
         "description": "Developed a car plate recognition system using YOLO for detection, with a Python backend utilizing Flask API and a React frontend with Material UI. Integrated Streamlit, and used Python for image scraping and annotation with Roboflow",
         "skills": ["python", "flask", "Yolo", "streamlit", "React"]
+    },
+    {
+        "title": "Space Ebook",
+        "image": "img/space.png",
+        "live_link": "https://alyalsayed-space-ebook.netlify.app/",
+        "github_link": "https://alyalsayed-space-ebook.netlify.app/",
+        "description": "Explore the wonders of the universe with this interactive Space eBook",
+        "skills": ["Html", "Css", "Javascript", "Responsive Design"]
     }
+    ,
+    {
+        "title": "Movie Recommendation System",
+        "image": "img/movies.PNG",
+        "live_link": "https://huggingface.co/spaces/alyalsayed/movie_recommendation_system",
+        "github_link": "https://github.com/alyalsayed/Movies-Recommendation-System",
+        "description": "A movie recommendation system with streamlit and huggingface",
+        "skills": ["python", "movies_api", "streamlit", "huggingface","kaggle","flask"]
+    }
+    ,
+    {
+        "title": "To Do App",
+        "image": "img/to-do-list.png",
+        "live_link": "https://alyalsayed-todoapp.netlify.app/",
+        "github_link": "https://github.com/alyalsayed/Innovixion-Tech/tree/main/Task2-Todo-App",
+        "description": "Stay productive and organized with this intuitive To-Do App. Designed for simplicity and efficiency, it allows you to create, manage, and track tasks effortlessly.",
+        "skills": ["Html", "Css", "Javascript"]
+    }
+    ,
+    {
+        "title": "CountDown timer",
+        "image": "img/countdowntimer.webp",
+        "live_link": "https://alyalsayed-countdown-timer.netlify.app/",
+        "github_link": "https://github.com/alyalsayed/Innovixion-Tech/tree/main/Task1-Countdown%20Timer",
+        "description": "A simple count down timer .",
+        "skills": ["Html", "Css", "Javascript", "Responsive Design"]
+    }
+    ,
+    {
+        "title": "Weather App",
+        "image": "img/weather.png",
+        "live_link": "https://alyalsayed-weather-app.netlify.app/",
+        "github_link": "https://github.com/alyalsayed/CodeAlpha/tree/main/Task2-weather-app",
+        "description": "A weather app that uses the OpenWeatherMap API.",
+        "skills": ["Html", "Css", "Javascript"]
+    }
+    ,
+    {
+        "title": "Age Calculator",
+        "image": "img/agecalculator.PNG",
+        "live_link": "https://alyalsayed-age-calculator.netlify.app/",
+        "github_link": "https://github.com/alyalsayed/CodeAlpha/tree/main/Task1-Age-Calculator",
+        "description": "A simple age calculator .",
+        "skills": ["Html", "Css", "Javascript"]
+    }
+    ,
+    {
+        "title": "React Calculator",
+        "image": "img/calculator.PNG",
+        "live_link": "https://alyalsayed-react-calculator.netlify.app/",
+        "github_link": "https://github.com/alyalsayed/OIBSIP/tree/main/Task-Basic-Calculator",
+        "description": "A simple calculator .",
+        "skills": ["Html", "Css", "Javascript", "React"]
+    }
+    ,
+    {
+        "title": "React Book manager",
+        "image": "img/background.webp",
+        "live_link": "https://alyalsayed-book-management-app.netlify.app/",
+        "github_link": "https://github.com/alyalsayed/Book-Management-App",
+        "description": "A simple book manager .",
+        "skills": ["Html", "Css", "Javascript", "React"]
+    }
+    ,
+    {
+        "title": "PHP Admin Dashboard",
+        "image": "img/phplogo.webp",
+        "live_link": "https://github.com/alyalsayed/DEPI_PHP_CRUD?tab=readme-ov-file#demo",
+        "github_link": "https://github.com/alyalsayed/DEPI_PHP_CRUD",
+        "description": "A complete admin panel dashboard with authentication and CRUD operations.",
+        "skills": ["Html", "Bootstrap", "PHP", "MySql","oop"]
+    }
+    ,
+    {
+        "title": "Laravel Projects",
+        "image": "img/laravel.png",
+        "live_link": "https://github.com/alyalsayed/Laravel-Projects",
+        "github_link": "https://github.com/alyalsayed/Laravel-Projects",
+        "description": "Various projects using Laravel framework.",
+        "skills": ["Html", "Bootstrap", "PHP", "MySql","laravel"]
+    }
+    
 ]
