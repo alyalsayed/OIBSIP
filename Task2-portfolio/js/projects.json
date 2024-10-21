@@ -1,4 +1,13 @@
 [
+    
+    {
+        "title": "Itrainer Platform",
+        "image": "img/laravel.png",
+        "live_link": "http://alyalsayed-itrainer-depi.liveblog365.com/",
+        "github_link": "https://github.com/alyalsayed/ITrainer",
+        "description": "Developed with Laravel 11, PHP, MySQL, and Bootstrap using the MVC architecture, the project features role-based dashboards, CRUD operations, route protection with middleware, Breeze authentication, task management, attendance tracking, notes, grading, session tracking, notifications, real-time chat with Pusher, and a to-do list integrated with Livewire.",
+        "skills": ["Html", "Bootstrap", "PHP", "MySql","laravel","livewire","pusher","postman"]
+    },
     {
         "title": "Personal Portfolio",
         "image": "img/portfolio.webp",
@@ -112,14 +121,6 @@
         "description": "A complete admin panel dashboard with authentication and CRUD operations.",
         "skills": ["Html", "Bootstrap", "PHP", "MySql","oop"]
     }
-    ,
-    {
-        "title": "Laravel Projects",
-        "image": "img/laravel.png",
-        "live_link": "https://github.com/alyalsayed/Laravel-Projects",
-        "github_link": "https://github.com/alyalsayed/Laravel-Projects",
-        "description": "Various projects using Laravel framework.",
-        "skills": ["Html", "Bootstrap", "PHP", "MySql","laravel"]
-    }
+    
     
 ]
